@@ -1,0 +1,42 @@
+TABLE 1: 
+Name:ADMIN TABLE
+
+Fields:
+1. Admin ID (Primary Key)
+2.Admin Name
+3.Dept Name
+
+
+TABLE 2:
+Name:TASK TABLE
+
+Fields:
+1.Task ID (Primary Key)
+2.Task Name
+3.Description
+4.Status
+5.Priority
+6.Assign Date
+7.Completion Date
+8.Admin ID(Foreign Key)
+
+
+TABLE 3:
+Name:EMPLOYEE TABLE
+
+Fields:
+1.Employee ID (Primary Key)
+2.Employee Name
+3.Dept Name
+4.Admin ID (Foreign Key)
+5.Task ID  (Foreign Key)
+
+TABLE 4:
+Name:NOTES TABLE
+
+Fields:
+1.Notes ID (Primary Key)
+2.Task ID  (Foreign Key)
+3.Admin ID (Foreign Key)
+4.Notes Details
+5.Book mark
